@@ -14,16 +14,16 @@ part of the Cloudflare deployment.
 ```bash
 pnpm install
 npx wrangler login     # once, opens a browser
-pnpm deploy            # builds and deploys
+pnpm run deploy        # builds and deploys ("pnpm deploy" is a built-in pnpm command)
 ```
 
-`pnpm cf:preview` builds and serves the deployed setup locally on
+`pnpm run cf:preview` builds and serves the deployed setup locally on
 `http://localhost:8787`.
 
 ## Deploy from CI
 
 Create a Cloudflare API token with the **Edit Cloudflare Workers** template,
-then set these as repository secrets and run `pnpm deploy`:
+then set these as repository secrets — the `Deploy to Cloudflare Workers` workflow runs on every push to `main`:
 
 - `CLOUDFLARE_API_TOKEN`
 - `CLOUDFLARE_ACCOUNT_ID`
