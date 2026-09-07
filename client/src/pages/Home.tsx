@@ -76,7 +76,7 @@ export default function Home() {
       <section className="relative isolate min-h-[760px] overflow-hidden bg-[#17251f] text-[#f7f2e9] lg:min-h-[840px]">
         <div
           className="absolute inset-0 -z-20 bg-cover bg-center"
-          style={{ backgroundImage: "url('/manus-storage/galco-hero_6ff85f15.jpg')" }}
+          style={{ backgroundImage: "url('/images/galco-hero.jpg')" }}
         />
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(17,28,23,.96)_0%,rgba(17,28,23,.74)_38%,rgba(17,28,23,.18)_73%,rgba(17,28,23,.3)_100%)]" />
         <div className="absolute inset-0 -z-10 bg-[linear-gradient(0deg,rgba(17,28,23,.6),transparent_35%,rgba(17,28,23,.14))]" />
@@ -199,7 +199,7 @@ export default function Home() {
 
           <div className="mt-16 grid gap-5 lg:grid-cols-[1.05fr_0.95fr] lg:items-stretch">
             <div className="relative min-h-[520px] overflow-hidden rounded-[2rem] bg-[#b9996e] lg:min-h-[640px]">
-              <img src="/manus-storage/galco-products_12378c7c.jpg" alt="A bowl of mixed nuts and dried fruits" className="absolute inset-0 h-full w-full object-cover transition duration-700 hover:scale-[1.03]" />
+              <img src="/images/galco-products.jpg" alt="A bowl of mixed nuts and dried fruits" className="absolute inset-0 h-full w-full object-cover transition duration-700 hover:scale-[1.03]" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#16221c]/80 via-transparent to-transparent" />
               <div className="absolute bottom-7 left-7 right-7 flex items-end justify-between text-[#f7f2e9] sm:bottom-9 sm:left-9 sm:right-9">
                 <div>
